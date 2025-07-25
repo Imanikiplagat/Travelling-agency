@@ -29,6 +29,7 @@
     margin-top: 32px;
    
 }
+
 .hero-btns .btn {
     margin: 6px;
 }
@@ -53,9 +54,11 @@
     display: block;
     text-decoration: none;
 }
-.btn{
+.btns{
     width: 100%;
 }
 }
+
+
     
     
