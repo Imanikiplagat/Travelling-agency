@@ -1,12 +1,12 @@
-import React from 'react';
-import './App.css';
-import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from 'react'
+import './App.css'
+import Navbar from './components/Navbar'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './components/pages/Home'
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import Services from './components/pages/Services.js';
-import Products from './components/pages/Products.js';
-import SignUp from './components/pages/SignUp.js';
+import '@fortawesome/fontawesome-free/css/all.min.css'
+import Services from './components/pages/Services.js'
+import Products from './components/pages/Products.js'
+import SignUp from './components/pages/SignUp.js'
 
 
 

@@ -1,18 +1,21 @@
-.hero-container{
-   
-    background: url('../assets/montain.jpeg') ;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: inset 0 0 0 1000px rgb(0,0,0,0.2);
-    object-fit: contain;
-    justify-content: center;
+video {
+  position: fixed;
 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+ 
+}
+.hero-container {  
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
 }
 .hero-container > h1{
     color:white;
